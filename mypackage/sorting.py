@@ -6,7 +6,7 @@ def bubble_sort(items):
          for y in range(0, len(items)-1-x):
              if items[y] > items[y+1]:
                  items[y], items[y+1] = items[y+1], items[y]
-     return items
+    return items
 
 #merge sort
 def merge(first, last):
