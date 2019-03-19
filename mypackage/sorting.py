@@ -2,7 +2,7 @@
 def bubble_sort(items):
 
     '''Return array of items, sorted in ascending order'''
-     for x in range(0, len(items)-1):
+    for x in range(0, len(items)-1):
          for y in range(0, len(items)-1-x):
              if items[y] > items[y+1]:
                  items[y], items[y+1] = items[y+1], items[y]
